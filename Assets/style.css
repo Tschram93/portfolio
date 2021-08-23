@@ -6,6 +6,12 @@
 	display: flex;
 }
 
+body {
+}
+
+header {
+	text-align: end;
+}
 /* Responsive layout based on viewing device size */
 
 /* Application image size needs to be larger than others */
