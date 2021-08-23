@@ -1,3 +1,11 @@
+.b-cotainer {
+	display: flex;
+}
+
+.container {
+	display: flex;
+}
+
 /* Responsive layout based on viewing device size */
 
 /* Application image size needs to be larger than others */
