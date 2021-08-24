@@ -4,17 +4,19 @@
 
 .background {
 	background-image: linear-gradient(#808080, rgb(255, 255, 255), #000);
+	border-radius: 5px;
 	height: 100px;
 	width: 25vw;
 }
 
 .b-container {
 	background-color: #808080;
+	border: 1px #000000 solid;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: row;
 	font-size: 14pt;
-	margin: 10px;
+	margin: 20px 10px 10px 10px;
 	text-align: center;
 	width: 95vw;
 }
@@ -30,11 +32,21 @@
 
 .container {
 	display: flex;
-	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
 	font-size: 14pt;
+	justify-content: space-around;
 	margin: 10px;
+	padding: 0 0 20px 0;
 	width: 100vw;
 }
+
+.container > div {
+	flex: 1 0 50%;
+	box-shadow: 0 0 0 1px black;
+	margin-bottom: 10px;
+}
+
 @media (max-width: 800px) {
 	.container {
 		display: flex;
@@ -47,6 +59,8 @@
 
 body {
 	background-color: #35a0a0;
+	font-size: 14pt;
+	line-height: 1.5;
 }
 
 h2 {
@@ -62,8 +76,9 @@ h2 p {
 }
 
 img {
-	width: 200px;
+	border-radius: 45%;
 	height: 250px;
+	width: 200px;
 }
 
 header {
@@ -71,6 +86,12 @@ header {
 	padding-bottom: 120px;
 	text-align: end;
 }
+
+section,
+div {
+	justify-content: space-between;
+}
+
 /* main {
 	
 } */
@@ -84,9 +105,14 @@ header {
 
 .rAlign {
 	display: flex;
-	border-left: 2px solid #000000;
+	border-left: 2px #000000;
 	justify-content: center;
 	margin: 0 0 0px 120px;
+}
+
+.name {
+	font-size: 10pt;
+	text-align: end;
 }
 /* Responsive layout based on viewing device size */
 
