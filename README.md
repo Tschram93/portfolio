@@ -10,10 +10,10 @@
 
     *My personal contact information.
 
-- The following is capture of the completed website.
+The following is capture of the completed website.
 
-![Webpage image](./Assets/ss1.jpg) Format: ![Alt Text](url)
+![Webpage image](./Assets/ss1.jpg)
 
-![Webpage image](./Assets/ss2.jpg) Format: ![Alt Text](url)
+![Webpage image](./Assets/ss2.jpg)
 
 Link to webpage: [Profolio](https://tschram93.github.io/portfolio/)
