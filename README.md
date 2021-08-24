@@ -10,7 +10,7 @@
 
     *My personal contact information.
 
-The following is capture of the completed website.
+- The following is capture of the completed website.
 
 ![Webpage image](./Assets/ss1.jpg)
 
