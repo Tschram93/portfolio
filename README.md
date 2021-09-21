@@ -1,6 +1,6 @@
 # Professional Portfolio
 
-## Infortmation:
+## Information:
 
     *This website contains an about me information.
 
