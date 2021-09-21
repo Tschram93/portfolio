@@ -20,6 +20,7 @@
 	text-align: center;
 	width: 95vw;
 }
+
 @media (max-width: 800px) {
 	.b-container {
 		display: flex;
@@ -41,14 +42,14 @@
 	width: 100vw;
 }
 
-.container > div {
+.container>div {
 	flex: 1 0 50%;
 	box-shadow: 0 0 0 1px black;
 	margin-bottom: 10px;
 }
 
 @media (max-width: 800px) {
-	.container > div {
+	.container>div {
 		display: flex;
 		flex: 1 0 50%;
 		flex-direction: column;
@@ -69,7 +70,7 @@
 }
 
 body {
-	background-color: #35a0a0;
+	background-color: #5F634F;
 	font-size: 14pt;
 	line-height: 1.5;
 }
@@ -112,7 +113,17 @@ div {
 	justify-content: flex-start;
 	margin: 0px 50px 0px 0px;
 	text-align: start;
+
+	@media only screen and (max-width: 600px) {
+		/* smartphones [426px -> 600px] */
+		text-align: center;
+
+	}
+
+	;
 }
+
+;
 
 .rAlign {
 	display: flex;
@@ -125,6 +136,25 @@ div {
 	font-size: 10pt;
 	text-align: end;
 }
+
+.navbar {
+	display: flex;
+	text-align: left;
+	font-weight: 700;
+}
+
+;
+
 /* Responsive layout based on viewing device size */
+
+#websites {
+	@media only screen and (max-width: 600px) {
+		/*Big smartphones [426px -> 600px]*/
+		display: flex;
+
+	}
+}
+
+;
 
 /* Application image size needs to be larger than others */
