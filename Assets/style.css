@@ -1,5 +1,5 @@
 * {
-	background-color: #5F634F;
+	background-color: #8D9277;
 
 }
 
@@ -122,9 +122,18 @@ div {
 	margin: 0 0 0px 120px;
 }
 
+.deepBlue {
+	color: #38636B;
+}
+
 .name {
 	font-size: 10pt;
 	text-align: end;
+}
+
+
+.powderBlue {
+	background-color: #CFEBDF;
 }
 
 /* Responsive layout based on viewing device size */
