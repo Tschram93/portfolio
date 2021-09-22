@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
 * {
-	background-color: #8D9277;
+	background-color: #93A8AC;
 }
 
 body {
+	font-family: "Dosis", sans-serif;
 	font-size: 14pt;
 	font-weight: 500;
 	line-height: 1.5;
@@ -43,24 +46,7 @@ div {
 	display: flex;
 }
 
-.background {
-	background-image: linear-gradient(#808080, rgb(255, 255, 255), #000);
-	border-radius: 5px;
-	height: 100px;
-	width: 25vw;
-}
 
-.b-container {
-	background-color: #808080;
-	border: 1px #000000 solid;
-	border-radius: 15px;
-	display: flex;
-	flex-direction: row;
-	font-size: 14pt;
-	margin: 20px 10px 10px 10px;
-	text-align: center;
-	width: 95vw;
-}
 
 @media (max-width: 800px) {
 	.b-container {
@@ -138,7 +124,7 @@ div {
 }
 
 .powderBlue {
-	background-color: #52B78B;
+	background-color: #424B54;
 }
 
 
