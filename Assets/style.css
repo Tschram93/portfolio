@@ -22,7 +22,9 @@ h2 p {
 	font-size: 14pt;
 }
 
-img {
+
+
+#avatar {
 	border-radius: 45%;
 	height: 250px;
 	width: 200px;
@@ -128,10 +130,17 @@ div {
 	color: #38636B;
 }
 
+.darkBlue {
+	color: #152528;
+	font-weight: 750;
+
+
+}
 
 .powderBlue {
-	background-color: #CFEBDF;
+	background-color: #52B78B;
 }
+
 
 /* Responsive layout based on viewing device size */
 
