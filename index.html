@@ -5,24 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./Assets/style.css">
     <title>Portfolio</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <a href="#aboutMe">About Me</a>
-            <a href="#work">My Work</a>
-            <a href="#contact">Contact Me</a>
-        </nav>
+        <div class="container">
+            <nav class="flex items-center justify-between flex-wrapp-6">
+                <div class="flex items-center flex-shrink-0 text-white mr-6">
+                    <span class="font-bold text-xl"> Welcome! </span>
+                </div>
+                <a href="#aboutMe">About Me</a>
+                <a href="#work">My Work</a>
+                <a href="#contact">Contact Me</a>
+            </nav>
+        </div>
     </header>
     <h1 class="align">Travis Schram</h1>
     <h2><a name="aboutMe">
             About Me
         </a></h2>
     <img src="./Assets/avatar.webp">
-    <p>I am a Software Devloping student through Michigan Stae University's coding bootcamp program. I have been
+    <p>I am a Software Developing student through Michigan State University's coding bootcamp program. I have been
         learning HTM, css, and javascript. I am fascinated by technology as well as Health & Fitness.</p>
     <main bigContainer>
 
@@ -35,7 +41,7 @@
                 Work
             </a></h2>
         <!-- Add other project links -->
-        <div class="rAlign" id="websites">
+        <div class="rAlign">
             <section class="container">
                 <div class="background">
                     <a href="https://tschram93.github.io/futurama-page/">Responsive website</a>
@@ -56,6 +62,7 @@
         <h2 class="align"><a name="contact">
                 Contact Me
             </a></h2>
+        <!-- Card -->
         <section class="b-container">
             <div>
                 <p>Phone:<a href="tel:989-284-2576">My Number</a></p>
@@ -67,10 +74,10 @@
                 <p>Github:<a href="https://github.com/Tschram93">TSchram93</a></p>
             </div>
         </section>
-        <div class="card">
-
+        <!-- Turn into a card -->
+        <div class="name">
+            <p>Made by T. Schram</p>
         </div>
-        <p class="name">Made by T. Schram</p>
     </footer>
 </body>
 
