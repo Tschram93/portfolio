@@ -1,11 +1,13 @@
 * {
 	background-color: #8D9277;
-
 }
 
 body {
 	font-size: 14pt;
+	font-weight: 500;
 	line-height: 1.5;
+	margin-right: 4px;
+	margin-left: 6px;
 }
 
 h2 {
@@ -124,11 +126,6 @@ div {
 
 .deepBlue {
 	color: #38636B;
-}
-
-.name {
-	font-size: 10pt;
-	text-align: end;
 }
 
 
