@@ -2,21 +2,16 @@
 
 - The following is a capture of the completed website.
 
-![Webpage image](./Assets/ss1.jpg)
+![Webpage image](./Assets/Readmeimg.JPG)
 
-![Webpage image](./Assets/ss2.jpg)
+![Webpage image](./Assets/readmeImg2.JPG)
 
-Link to webpage: [Portfolio](https://tschram93.github.io/portfolio/)
+![Webpage image](./Assets/readmeImg3.JPG)
+
+### Link to webpage: [Portfolio](https://tschram93.github.io/portfolio/)
+
 
 
 ## Description:
 
-    *This website contains information about me.
-
-    *Links at the top of the page that redirect to the appropriate sections of the webpage.
-
-    *Contains other projects that I have completed.
-
-    *My personal contact information.
-
-
+    This website contains information about me.The links at the top of the page that redirect to the appropriate sections of the webpage.It contains other projects that I have completed. My contact information is included at the bottom of the webpage.
