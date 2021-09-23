@@ -14,4 +14,4 @@
 
 ## Description:
 
-    This website contains information about me.The links at the top of the page that redirect to the appropriate sections of the webpage.It contains other projects that I have completed. My contact information is included at the bottom of the webpage.
+This website contains information about me.The links at the top of the page that redirect to the appropriate sections of the webpage.It contains other projects that I have completed. My contact information is included at the bottom of the webpage.
