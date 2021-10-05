@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container md:ml-4">
             <nav class="flex items-center powderBlue justify-between flex-wrap p-6">
                 <div class="flex items-center flex-shrink-0 text-white mr-6">
                     <span class="font-bold powderBlue text-xl"> Welcome! </span>
@@ -30,80 +30,87 @@
             </nav>
         </div>
     </header>
-    <h2 class="font-bold"><a name="aboutMe">
+    <h2 class="font-bold lg:ml-4"><a name="aboutMe">
             About Me
         </a></h2>
     <img id="avatar" src="./Assets/IMG.jpg">
-    <p class="aboutMe"> My name is Travis Schram. I am a Software Developer student going through Michigan State
+    <p class="aboutMe md:ml-6"> My name is Travis Schram. I am a Software Developer student going through Michigan State
         University's coding
         BootCamp program. I have been learning HTML, CSS, and javascript. I have become efficient with API's and
         integrating them into a webpage. I am fascinated by technology as well as Health & Fitness.</p>
-    <main bigContainer>
 
-        <!-- Needs Avatar & link sections 
+    <!-- Needs Avatar & link sections 
         -->
-        <div class="rAlign">
-        </div>
-        <!-- Images section Below -->
-        <h2 class="align mt-20 font-bold"><a name="work">
-                Work
-            </a></h2>
-        <!-- Add other project links -->
-        <section>
+    <div class="rAlign">
+    </div>
+    <!-- Images section Below -->
+    <h2 class="align mt-20 font-bold"><a class="md:ml-6" name="work">
+            Work
+        </a></h2>
+    <!-- Add other project links -->
+    <section>
+        <div class="container md:ml-6">
+            <h3 class="text-xl text-center font-semibold">Space Tracker</h3>
+            <div class="flex">
+                <img class="lg:mx-w-lg md:mx-w-md" src=" ./Assets/space.jpg" alt="">
+            </div>
+        </div class="">
+        <!-- <div class="container"> -->
+        <a class="darkBlue hover:text-white mx-2 md:ml-6" href="https://letqin.github.io/space-in-your-face/"
+            target="_blank">ISS
+            Tracker</a>
+        <a class="darkBlue hover:text-white mx-2" href="https://github.com/letqin/space-in-your-face"
+            target="_blank">Github
+            Code</a>
+        <div class="my-2 mx-6">
+            <h3 class="text-xl text-center font-semibold">Futurama</h3>
             <div class="container">
-                <div class="flex">
-                    <img class="lg:mx-w-lg md:mx-w-md" src=" ./Assets/space.jpg" alt="">
+                <div class="flex justify-around">
+                    <img class="md:max-w-lg my-2" src="./Assets/fut.JPG" alt="" id="fut1">
+                    <img class="sm:max-w-sm lg:max-w-md my-2" src="./Assets/fut2.JPG" alt="" id="fut2">
                 </div>
             </div>
-            <!-- <div class="container"> -->
-            <a class="darkBlue hover:text-white mx-2" href="https://letqin.github.io/space-in-your-face/"
-                target="_blank">ISS
-                Tracker</a>
-            <a class="darkBlue hover:text-white mx-2" href="https://github.com/letqin/space-in-your-face"
-                target="_blank">Github
-                Code</a>
-            <div class="my-2 mx-6">
-                <div class="container">
-                    <div class="flex justify-around">
-                        <img class="md:max-w-lg my-2" src="./Assets/fut.JPG" alt="" id="fut1">
-                        <img class="sm:max-w-sm lg:max-w-md my-2" src="./Assets/fut2.JPG" alt="" id="fut2">
-                    </div>
-                </div>
-                <a class="darkBlue hover:text-white mr-2" href="https://tschram93.github.io/futurama-page/"
-                    target="_blank">Responsive
-                    website</a>
-                <a class="darkBlue hover:text-white ml-2" href="https://github.com/Tschram93/futurama-page"
-                    target="_blank">Github Code</a>
-            </div>
-            </div>
-            <div class="my-2 mx-6">
-                <img class="max-w-lg sm:max-w-md" src="./Assets/passwordPreview.JPG" alt="">
-                <a class="darkBlue hover:text-white mr-2" href="https://tschram93.github.io/password-generator/"
-                    target="_blank">Secure Password</a>
-                <a class="darkBlue hover:text-white ml-2" href="https://github.com/Tschram93/password-generator"
-                    target="_blank">Github Code</a>
-            </div>
-            <div class="my-2 mb-2">
-                <a class="hover:text-white darkBlue" href="https://github.com/Tschram93/horiseon-refactor"
-                    target="_blank">Sample
-                    business website</a>
-            </div>
-        </section>
-        <!-- </div> -->
+            <a class="darkBlue hover:text-white mr-2" href="https://tschram93.github.io/futurama-page/"
+                target="_blank">Responsive
+                website</a>
+            <a class="darkBlue hover:text-white ml-2" href="https://github.com/Tschram93/futurama-page"
+                target="_blank">Github Code</a>
+        </div>
+        </div>
+        <h3 class="text-xl font-semibold md:ml-44">Password Generator</h3>
+        <div class="my-2 mx-6">
+            <img class="max-w-lg sm:max-w-md mb-2" src="./Assets/passwordPreview.JPG" alt="">
+            <a class="darkBlue hover:text-white mr-2" href="https://tschram93.github.io/password-generator/"
+                target="_blank">Secure Password</a>
+            <a class="darkBlue hover:text-white ml-2" href="https://github.com/Tschram93/password-generator"
+                target="_blank">Github Code</a>
+        </div>
+        <h3 class="text-xl font-semibold md:ml-44">Horiseon Business</h3>
+        <div class="my-2 mb-2 md:ml-6">
+            <img class="md:max-w-lg my-2" src="./Assets/horiseon.JPG" alt="" id="horiseon">
+            <a class="hover:text-white darkBlue md:ml-6" href="https://github.com/Tschram93/horiseon-refactor"
+                target="_blank">Sample
+                business website</a>
+            <a class="darkBlue hover:text-white ml-2" href="https://github.com/Tschram93/horiseon-refactor"
+                target="_blank">Github Code</a>
+        </div>
+    </section>
+    <!-- </div> -->
+    <embed src="./Assets/t-schram-resume.pdf" width="850" height="375" type="application/pdf">
     </main>
     <footer class="deepBlue">
         <section class="mt-40">
             <div class="grid grid-cols-1">
                 <!-- Card -->
                 <section class="deepBlue">
+                    <h3 class="deepBlue ... font-semibold text-white text-2xl ml-4 mt-4">
+                        Contact Me
+                    </h3>
                     <div class="container deepBlue">
-                        <h3 class="deepBlue ... font-semibold text-white text-2xl ml-4 mt-4">
-                            Contact Me
-                        </h3>
                         <div
-                            class="... max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl font-bold lg:text-lg md:text-md sm:text-sm">
+                            class="... justify-center text-center max-w-sm mx-auto flex flex-grow p-6 bg-white rounded-lg shadow-xl font-bold lg:text-lg md:text-md sm:text-sm">
                             <div class="bg-white flex lg:border-r-2 lg:border-black lg:mr-1">
-                                <span id="contact" class="bg-white"> Phone:
+                                <span id="contact" class="bg-white mr-2"> Phone:
                                     <a class="bg-white e text-blue-800" href="tel:989-284-2576">My Number</a>
                                 </span>
                             </div>
@@ -113,13 +120,19 @@
                                         target="_blank">Tschram93@gmail.com</a>
                                 </span>
                             </div>
-                            <div class=" bg-white flex lg:border-l-2 lg:border-black">
-                                <span class="bg-white"> Github:
+                            <div class=" bg-white flex lg:border-l-2 sm:mx-2 lg:border-black">
+                                <span class="bg-white lg:mx-2"> Github:
                                     <a class="bg-white text-blue-800" href=" https://github.com/Tschram93"
                                         target="_blank">TSchram93</a>
                                 </span>
                             </div>
                         </div>
+                    </div>
+                    <div class="deepBlue text-lg text-center">
+                        <span class="text-white md:ml-2 deepBlue"> LinkedIn : </span>
+                        <a class="bg-white text-blue-600 mr-2 text-white deepBlue"
+                            href="https://www.linkedin.com/in/travis-schram-a37727217/" target="_blank">Travis</a>
+                        </span>
                     </div>
                 </section>
                 <!-- Turn into a card -->
