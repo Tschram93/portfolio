@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
 
 * {
 	background-color: #93A8AC;
@@ -117,6 +120,7 @@ div {
 	margin: 0 0 0px 120px;
 }
 
+
 .deepBlue {
 	background-color: #1D2D44;
 }
@@ -132,6 +136,9 @@ div {
 	background-color: #424B54;
 }
 
+h3 {
+	font-family: 'Inter', Helvetica, Arial;
+}
 
 /* Responsive layout based on viewing device size */
 
